@@ -18,7 +18,7 @@ const readline = require('readline');
 const fs = require('fs');
 const stream = require('stream');
 
-const inStream = fs.createReadStream('./input-large.in')
+const inStream = fs.createReadStream('./input.in')
 const outStream = new stream();
 const rl = readline.createInterface(inStream, outStream);
 
@@ -36,6 +36,11 @@ let rawTestCase = [];
 rl.on('line', function(line) {
   // First line is the total number of test cases; array will have that number of objects
   lineNumber++;
+  
+  parseLineContent(line, lineNumber);
+});
+
+const parseLineContent = (line, lineNumber) => {
   if (lineNumber === 1) {
     return;
   }
@@ -78,10 +83,4 @@ rl.on('line', function(line) {
     testCases.push(testCase); 
     testCaseNum++;
   }
-  console.log("testCases are", testCases);
-
-});
-
-const parseLineContent = () => {
-
 }
