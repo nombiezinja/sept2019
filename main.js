@@ -115,16 +115,9 @@ const traverse = (testCase) => {
   // [   '2',  '-1','-1',  '1' ],
   // [   '1',  '1', '1',   '1' ] 
   // ] 
-  // },
-  // start with testCase.rawInput[entry[0]][entry[1]]
-  let queue = [];
-
-  // push testCase.rawInput[entry[0] - 1][entry[1]] - up if exists && if > 0 
-  // push testCase.rawInput[entry[0]][entry[1] - 1] - left
-  // push testCase.rawInput[entry[0]][entry[1] + 1] - right
-  // push testCase.rawInput[entry[0] + 1][entry[1]] - down
-  // 
-
+  // }
+  
+  // Parse 2d array into adjacency list
 
 }
 
@@ -134,7 +127,6 @@ const formatStr = (result) => {
   //   Case #1: Mission Impossible.
   // else 
   //   Case #2: 7
-
 }
 
 const getMax = (arr) => {
