@@ -1,6 +1,6 @@
-import Graph from '../Graph';
-import GraphVertex from '../GraphVertex';
-import GraphEdge from '../GraphEdge';
+import Graph from '../GraphAdjMatrix';
+import GraphVertex from '../GraphVertexAdjMatrix';
+import GraphEdge from '../GraphEdgeAdjMatrix';
 
 describe('Graph', () => {
   it('should add vertices to graph', () => {

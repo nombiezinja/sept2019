@@ -118,7 +118,6 @@ const traverse = (testCase) => {
   // }
   
   // Parse 2d array into adjacency list
-
 }
 
 const formatStr = (result) => {
