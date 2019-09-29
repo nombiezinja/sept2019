@@ -1,0 +1,27 @@
+{
+  "name": "graph-input",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "bin": "bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nombiezinja/sept2019.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nombiezinja/sept2019/issues"
+  },
+  "homepage": "https://github.com/nombiezinja/sept2019#readme",
+  "dependencies": {
+    "pkg": "^4.4.0",
+    "@babel/cli": "^7.2.3",
+    "@babel/preset-env": "^7.3.4",
+    "@types/jest": "^24.0.9",
+    "jest": "^24.3.1"
+  }
+}
