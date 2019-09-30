@@ -1,5 +1,5 @@
-import GraphVertex from './GraphVertex.js'
-import Graph from './Graph.js'
+import GraphVertex from './GraphVertexAdjList.js'
+import Graph from './GraphAdjList.js'
 
 describe('graph', () => {
   it('should add vertices to graph', () => {
